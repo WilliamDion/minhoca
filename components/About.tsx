@@ -10,7 +10,7 @@ export default function About() {
           
           {/* A Imagem */}
           <img 
-            src="https://rrwxenfxczyiqdjhhxem.supabase.co/storage/v1/object/public/Barbeiros/home.jpg" 
+            src="https://rrwxenfxczyiqdjhhxem.supabase.co/storage/v1/object/public/Minhoca/minhoca.JPG" 
             alt="Barbearia por dentro" 
             className="w-full h-full object-cover rounded-lg relative z-10 grayscale hover:grayscale-0 transition-all duration-700"
           />
@@ -32,7 +32,7 @@ export default function About() {
             </li>
             <li className="flex items-center text-zinc-300">
               {/* Check - Alterado: text-primary */}
-              <span className="text-primary mr-2">✓</span> Localização privilegiada perto do centro
+              <span className="text-primary mr-2">✓</span> Localização privilegiada perto da Ulbra
             </li>
           </ul>
         </div>
