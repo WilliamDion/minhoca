@@ -18,7 +18,7 @@ export default function About() {
 
         {/* Texto Informativo */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-4xl font-bold mb-6 text-white">Marra & Estilo</h2>
+          <h2 className="text-4xl font-bold mb-6 text-white">Tradição & Estilo</h2>
           <p className="text-zinc-400 leading-relaxed mb-6">
             Desde 20XX, trazendo os cortes que mais refletem a sua personalidade. 
             Ambiente climatizado e os melhores profissionais da região 
