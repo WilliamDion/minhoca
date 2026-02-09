@@ -30,7 +30,7 @@ export default function BookingModal({ initialServiceId, initialBarberId, isOpen
   useEffect(() => {
     async function fetchData() {
       const [bRes, sRes] = await Promise.all([
-        supabase.from('barbers').select('*').eq('active', true),
+        supabase.from('minhoca').select('*').eq('active', true),
         supabase.from('services').select('*').order('name')
       ])
       if (bRes.data) setBarbers(bRes.data)
