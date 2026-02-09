@@ -23,7 +23,7 @@ export default function Barbers({ onBook }: BarbersProps) {
   useEffect(() => {
     async function fetchBarbers() {
       const { data } = await supabase
-        .from('barbers')
+        .from('minhoca')
         .select('*')
         .eq('active', true)
       
