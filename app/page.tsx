@@ -49,6 +49,7 @@ export default function Home() {
 
       <About />
       <Services onBook={openBooking} />
+      <Barbers onBook={openBooking} />
       <ContactInfo/>
 
       <BookingModal 
